@@ -20,8 +20,10 @@
     <main>
         <label>
             Converter <b>de</b>
-            <select>
-                <option>R$ Real brasileiro</option>
+            <select class="currency-from-select">
+                <option value="real">R$ Real brasileiro</option>
+                <option value="dolar">US$ Dólar americano</option>
+                <option value="euro">€ Euro</option>
             </select>
         </label>
 
@@ -30,6 +32,7 @@
             <select class="currency-select">
                 <option value="dolar">US$ Dólar americano</option>
                 <option value="euro">€ Euro</option>
+                <option value="real">R$ Real brasileiro</option>
             </select>
         </label>
 
@@ -42,8 +45,8 @@
 
         <section>
             <div class="currency-box">
-                <img src="./assets/brasil 2.png" alt="logo-moeda-a-converter">
-                <p class="currency">Real</p>
+                <img class="currency-from-img" src="./assets/brasil 2.png" alt="logo-moeda-a-converter">
+                <p class="currency" id="currency-from-name">Real brasileiro</p>
                 <p class="currency-value-to-convert">R$ 10.000,00</p>
             </div>
 
