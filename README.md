@@ -2,7 +2,7 @@
 
 > Status do Projeto: Concluído  
 
-Link do projeto online: (https://lennercs.github.io/conversor-de-moedas/)
+Link do projeto online: https://lennercs.github.io/conversor-de-moedas/
 
 ---
 
